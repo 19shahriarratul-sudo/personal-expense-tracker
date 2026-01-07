@@ -34,7 +34,7 @@ import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'login_page.dart';
 import 'home_page.dart';
-
+import 'splash_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Expense Tracker',
-      home: const AuthGate(),
+      home: const SplashScreen(),
     );
   }
 }
@@ -80,3 +80,5 @@ class AuthGate extends StatelessWidget {
     );
   }
 }
+
+

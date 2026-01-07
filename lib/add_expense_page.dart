@@ -163,7 +163,7 @@ class _AddExpensePageState extends State<AddExpensePage> {
               // Category Dropdown
               DropdownButtonFormField<String>(
                 value: selectedCategory,
-                items: ['Food', 'Travel', 'Shopping', 'Bills', 'Other']
+                items: ['Food', 'Travel', 'Shopping', 'Bills','Entertainment','Other']
                     .map((cat) => DropdownMenuItem(
                   value: cat,
                   child: Text(cat),
